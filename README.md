@@ -142,6 +142,6 @@ cd versions\neoforge-1.21.11
 
 ## License
 
-The mod metadata currently declares `All Rights Reserved`.
+Options Rewriter is licensed under the MIT License.
 
 This repository also contains Minecraft Forge/NeoForge MDK-generated files and related license notices. See `LICENSE.txt` and version-specific template license files where applicable.
