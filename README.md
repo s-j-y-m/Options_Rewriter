@@ -1,5 +1,7 @@
 # Options Rewriter
 
+English | [简体中文](README_zh.md)
+
 Options Rewriter is a small client-side Minecraft mod for modpacks. It replaces the player's `options.txt` with a pack-provided template on first client startup, making it useful for distributing default keybindings and client options with a modpack.
 
 中文名：`options重覆写`
