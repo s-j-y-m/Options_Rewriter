@@ -1,25 +1,43 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+# 1. 默认忽略所有内容
+*
 
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
+# 2. 允许 Git 遍历所有目录
+!*/
 
-# gradle
-build
-.gradle
+# 3. 显式重新忽略常见的构建和 IDE 目录
+.gradle/
+.idea/
+.vscode/
+.settings/
+.metadata/
+build/
+bin/
+out/
+run/
+run-data/
+eclipse/
+generated/
+logs/
 
-# other
-eclipse
-run
+# 4. 放行项目配置和文档文件
+!.gitignore
+!.gitattributes
+!.editorconfig
+!build.gradle
+!settings.gradle
+!gradle.properties
+!gradlew
+!gradlew.bat
+!*.md
+!*.txt
+!LICENSE
 
-# Files from Forge MDK
-forge*changelog.txt
+# 5. 放行源代码和资源文件
+!*.java
+!*.json
+!*.png
+!*.mcmeta
+!*.toml
+!*.yml
+!gradle-wrapper.jar
+!gradle-wrapper.properties
